@@ -840,7 +840,7 @@
   <section id="scene-stairs" class="scene">
     <div class="stairs-wrap">
       <span class="scene-caption">樓 梯 口</span>
-      <img class="bg" src="images/staircase_main.jpg" alt="樓梯口">
+      <img class="bg" src="images/staircase_main.png" alt="樓梯口">
 
       <!-- A 布告欄 -->
       <div class="hotspot hotspot-a" id="hotspotA">
@@ -860,7 +860,7 @@
     <div class="subview" id="subview-board">
       <span class="zoom-note">布 告 欄</span>
       <button class="back-btn" data-back="stairs">← 返回樓梯口</button>
-      <img src="images/bulletin_board.jpg" alt="布告欄">
+      <img src="images/bulletin_board.png" alt="布告欄">
       <!-- 紙條熱區：無邊框，hover 顯示血跡提示 -->
       <div class="doc-hotspot doc-hotspot-note" id="hotspotNote">
         <span class="doc-tag">怎麼有血跡?</span>
@@ -871,14 +871,14 @@
     <div class="subview" id="subview-note">
       <span class="zoom-note">夜 間 巡 視 紀 錄 表</span>
       <button class="back-btn" data-back="board">← 返回布告欄</button>
-      <img src="images/bulletin_note.jpg" alt="夜間巡視紀錄表">
+      <img src="images/bulletin_note.png" alt="夜間巡視紀錄表">
     </div>
 
     <!-- 子畫面：樓梯細節 -->
     <div class="subview" id="subview-detail">
       <span class="zoom-note">樓 梯 細 節</span>
       <button class="back-btn" data-back="stairs">← 返回樓梯口</button>
-      <img src="images/staircase_detail.jpg" alt="樓梯細節">
+      <img src="images/staircase_detail.png" alt="樓梯細節">
     </div>
   </section>
 
@@ -919,7 +919,7 @@
   <!-- ===== 二樓走廊 ===== -->
   <section id="scene-corridor" class="scene">
     <div class="corridor-bg-wrap">
-      <img src="images/corridor_2f.jpg" alt="二樓走廊">
+      <img src="images/corridor_2f.png" alt="二樓走廊">
       <!-- E 理化實驗室（左近門） -->
       <div class="door-hotspot door-e" id="doorE">
         <span class="hotspot-tag">理化實驗室有股臭水溝的味道……</span>
@@ -960,7 +960,7 @@
       <button class="back-btn" data-back-subview="lab" style="z-index:30;">&#8592; 返回實驗室</button>
       <div class="desk-scene" id="deskScene">
         <!-- 底圖：動物線索紙，物件遮住它，移開後自然露出 -->
-        <img class="desk-bg" src="images/animal_clue.jpg" alt="動物線索紙">
+        <img class="desk-bg" src="images/animal_clue.png" alt="動物線索紙">
         <!-- 拖曳物件：有圖片時顯示圖片，沒有則顯示色塊 -->
         <div class="drag-item" id="obj1" style="left:7%;top:13%;width:33%;height:47%;">
           <img src="images/obj_book.jpg" alt="書本" onerror="this.parentElement.style.background='#5c4a2a';this.remove()">
@@ -975,7 +975,7 @@
           <img src="images/obj_tube.png" alt="試管架" onerror="this.parentElement.style.background='#1e3a2a';this.remove()">
         </div>
         <div class="drag-item" id="obj5" style="left:55%;top:48%;width:38%;height:44%;">
-          <img src="images/obj_cloth.jpg" alt="抹布" onerror="this.parentElement.style.background='#3a3030';this.remove()">
+          <img src="images/obj_cloth.png" alt="抹布" onerror="this.parentElement.style.background='#3a3030';this.remove()">
         </div>
         <div class="desk-hint" id="deskHint">拖曳移開桌上的物品</div>
         <div class="cleared-msg" id="clearedMsg">發現了什麼……</div>
@@ -987,7 +987,7 @@
       <span class="zoom-note">藥 品 櫃</span>
       <button class="back-btn" data-back-subview="lab" style="z-index:30;">&#8592; 返回實驗室</button>
       <div class="cabinet-wrap">
-        <img src="images/lab_cabinet.jpg" alt="藥品櫃">
+        <img src="images/lab_cabinet.png" alt="藥品櫃">
         <div class="cabinet-lock-zone" id="cabinetLockZone">
           <span class="hotspot-tag">電子鎖……需要密碼</span>
         </div>
@@ -1034,7 +1034,7 @@
 
   <!-- ===== 美術教室密碼紙 overlay ===== -->
   <div id="overlay-artpw">
-    <img src="images/art_password.jpg" alt="美術教室密碼紙">
+    <img src="images/art_password.png" alt="美術教室密碼紙">
     <button class="close-overlay" id="closeArtPw">&#10005; 關閉</button>
   </div>
 
@@ -1093,14 +1093,14 @@
     <div class="art-subview" id="artSubviewCabinet">
       <span class="zoom-note">美 術 櫃 子</span>
       <button class="back-btn" data-back-art="art">&#8592; 返回美術教室</button>
-      <img class="zoom-img" src="images/art_cabinet.jpg" alt="美術櫃子">
+      <img class="zoom-img" src="images/art_cabinet.png" alt="美術櫃子">
     </div>
 
     <!-- M 放大：日曆 -->
     <div class="art-subview" id="artSubviewCalendar">
       <span class="zoom-note">日 曆</span>
       <button class="back-btn" data-back-art="art">&#8592; 返回美術教室</button>
-      <img class="zoom-img" src="images/art_calendar.jpg" alt="日曆">
+      <img class="zoom-img" src="images/art_calendar.png" alt="日曆">
     </div>
 
     <!-- N 放大：日記 -->
@@ -1716,17 +1716,17 @@
   // 每句台詞：speaker（顯示名稱 / 立繪 key / null=旁白）、img（該句要切換的表情圖，可省略=維持原圖）、text
   const room13Script=[
     { speaker:null, name:'', text:'玩家解開大衛雕像的通關密語，推開門走進第 13 號教室。三位角色原本坐在沙發上，看到玩家進來，立刻開心地迎上前。' },
-    { speaker:'shu', name:'輸賠剩', img:'images/shu_1.jpg', text:'哇！恭喜你成功破關！太厲害了吧！我是輸賠剩，我因為很常在樓梯跌倒，有一次摔一跤就不小心發現這間教室，然後就變成這裡的常客了。' },
-    { speaker:'shu', name:'輸賠剩', img:'images/shu_1.jpg', text:'那個血跡應該沒有嚇到你們吧？摔那一跤差點傷到我英俊的臉龐。' },
-    { speaker:'shu', name:'輸賠剩', img:'images/shu_3.jpg', text:'我這種跑龍套的都能進來，沒想到你們是靠實力解謎進來的！真厲害。' },
-    { speaker:'hao', name:'郝事多', img:'images/hao_2.jpg', text:'歡迎來到第13號教室。我是郝事多，美術班的學長。' },
-    { speaker:'hao', name:'郝事多', img:'images/hao_3.jpg', text:'你剛才有經過美術教室對吧？因為每天被升學主義追著跑，實在太喘不過氣了，想要放鬆的時候，我就會躲來這裡休息。' },
-    { speaker:'li',  name:'李奪會', img:'images/li_3.jpg',  text:'終於見面啦！我是李奪會。你剛才在理化實驗室有看到我留下的密碼嗎？我的成績雖然不錯，但最近要大考又要參加科展，每天都要在實驗室練習，壓力真的很大。' },
-    { speaker:'li',  name:'李奪會', img:'images/li_1.jpg',  text:'跟你想像的不一樣對吧？' },
-    { speaker:'li',  name:'李奪會', img:'images/li_1.jpg',  text:'其實，這間教室是因為大家不想去夜自習，讀了太多書想要好好休息，所以我們才聯手把這裡改造成秘密基地。外面的紅綠色盲密碼、動物線索跟化學鍵密碼，都是我們設下的「門檻」啦！' },
-    { speaker:'hao', name:'郝事多', img:'images/hao_1.jpg', text:'（笑著點頭）沒錯，那些恐怖傳說只是為了不讓別人隨便靠近。不過，我們可不是鼓勵你來第 13 號教室一直耍廢休息喔！' },
-    { speaker:'li',  name:'李奪會', img:'images/li_3.jpg',  text:'我們在這裡找到了自己紓解壓力的方式，放鬆過後，大家會一起在這間教室組個讀書會，互相督促讀書。休息是為了走更長遠的路嘛！你要不要也加入我們？' },
-    { speaker:'li',  name:'李奪會', img:'images/li_2.jpg',  text:'不過……咦？剛剛在樓梯口看到你們的時候，我以為是 4 個人一起來耶，怎麼算一算才來了 3 個？是我眼花了嗎？' },
+    { speaker:'shu', name:'輸賠剩', img:'images/shu_1.png', text:'哇！恭喜你成功破關！太厲害了吧！我是輸賠剩，我因為很常在樓梯跌倒，有一次摔一跤就不小心發現這間教室，然後就變成這裡的常客了。' },
+    { speaker:'shu', name:'輸賠剩', img:'images/shu_1.png', text:'那個血跡應該沒有嚇到你們吧？摔那一跤差點傷到我英俊的臉龐。' },
+    { speaker:'shu', name:'輸賠剩', img:'images/shu_3.png', text:'我這種跑龍套的都能進來，沒想到你們是靠實力解謎進來的！真厲害。' },
+    { speaker:'hao', name:'郝事多', img:'images/hao_2.png', text:'歡迎來到第13號教室。我是郝事多，美術班的學長。' },
+    { speaker:'hao', name:'郝事多', img:'images/hao_3.png', text:'你剛才有經過美術教室對吧？因為每天被升學主義追著跑，實在太喘不過氣了，想要放鬆的時候，我就會躲來這裡休息。' },
+    { speaker:'li',  name:'李奪會', img:'images/li_3.png',  text:'終於見面啦！我是李奪會。你剛才在理化實驗室有看到我留下的密碼嗎？我的成績雖然不錯，但最近要大考又要參加科展，每天都要在實驗室練習，壓力真的很大。' },
+    { speaker:'li',  name:'李奪會', img:'images/li_1.png',  text:'跟你想像的不一樣對吧？' },
+    { speaker:'li',  name:'李奪會', img:'images/li_1.png',  text:'其實，這間教室是因為大家不想去夜自習，讀了太多書想要好好休息，所以我們才聯手把這裡改造成秘密基地。外面的紅綠色盲密碼、動物線索跟化學鍵密碼，都是我們設下的「門檻」啦！' },
+    { speaker:'hao', name:'郝事多', img:'images/hao_1.png', text:'（笑著點頭）沒錯，那些恐怖傳說只是為了不讓別人隨便靠近。不過，我們可不是鼓勵你來第 13 號教室一直耍廢休息喔！' },
+    { speaker:'li',  name:'李奪會', img:'images/li_3.png',  text:'我們在這裡找到了自己紓解壓力的方式，放鬆過後，大家會一起在這間教室組個讀書會，互相督促讀書。休息是為了走更長遠的路嘛！你要不要也加入我們？' },
+    { speaker:'li',  name:'李奪會', img:'images/li_2.png',  text:'不過……咦？剛剛在樓梯口看到你們的時候，我以為是 4 個人一起來耶，怎麼算一算才來了 3 個？是我眼花了嗎？' },
   ];
 
   let room13Index=0;
